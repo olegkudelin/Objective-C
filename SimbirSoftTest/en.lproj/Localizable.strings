@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  SimbirSoftTest
+
+  Created by Олег on 05.01.14.
+  Copyright (c) 2014 Олег. All rights reserved.
+*/
+"Hello, World! %@"="Hello, World  уу 1111! %@";
+"Error reading file: %@"="Error reading file: %@";
+"File %@ does't exist"="File %@ does't exist";
+"%@ is directory"="%@ is directory";
+"File %@ unavailable for read"="File %@ unavailable for read";
+"Error opening file %@"="Error opening file %@";
+"Failed to write file %@"="Failed to write file %@";
+"No write permission to the file %@"="No write permission to the file %@";
+"Error reading dictionary"="Error reading dictionary";

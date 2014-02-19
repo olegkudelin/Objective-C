@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C0D8BD81874AEEB007FD4D0 /* FileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0D8BD71874AEEB007FD4D0 /* FileReader.m */; };
+		7C0D8BDB1874B19C007FD4D0 /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0D8BDA1874B19C007FD4D0 /* File.m */; };
+		7C2B15331872D25600038DA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C2B15321872D25600038DA4 /* Foundation.framework */; };
+		7C2B15361872D25600038DA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B15351872D25600038DA4 /* main.m */; };
+		7C2B153A1872D25600038DA4 /* SimbirSoftTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7C2B15391872D25600038DA4 /* SimbirSoftTest.1 */; };
+		7C2B15421872D2D100038DA4 /* WordCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B15411872D2D100038DA4 /* WordCounter.m */; };
+		7C2B154518735B9800038DA4 /* DictionaryReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B154418735B9800038DA4 /* DictionaryReader.m */; };
+		7C4827991887143000637B5A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4134C1188088B300EFBAC6 /* XCTest.framework */; };
+		7C48279F1887143000637B5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C48279D1887143000637B5A /* InfoPlist.strings */; };
+		7C4827A11887143000637B5A /* SimbirSoftTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4827A01887143000637B5A /* SimbirSoftTestTests.m */; };
+		7CE8F1941875A9480090F201 /* DictionaryFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE8F1931875A9480090F201 /* DictionaryFactory.m */; };
+		7CE8F19B1875ECD10090F201 /* FileReaderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE8F19A1875ECD00090F201 /* FileReaderFactory.m */; };
+		7CEEE5FB187BDF8800961314 /* WordCounterFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEEE5FA187BDF8800961314 /* WordCounterFactory.m */; };
+		7CF3157218773D67004FD937 /* StaticticTextOutputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF3157118773D66004FD937 /* StaticticTextOutputer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C4827A31887143000637B5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C2B15271872D25600038DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C2B152E1872D25600038DA4;
+			remoteInfo = SimbirSoftTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7C2B152D1872D25600038DA4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				7C2B153A1872D25600038DA4 /* SimbirSoftTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7CF4D9521879E7D600D1C083 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7C0D8BD61874AEEB007FD4D0 /* FileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileReader.h; sourceTree = "<group>"; };
+		7C0D8BD71874AEEB007FD4D0 /* FileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileReader.m; sourceTree = "<group>"; };
+		7C0D8BD91874B19C007FD4D0 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		7C0D8BDA1874B19C007FD4D0 /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
+		7C0D8BDC1874B500007FD4D0 /* IDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDictionary.h; sourceTree = "<group>"; };
+		7C2B152F1872D25600038DA4 /* SimbirSoftTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimbirSoftTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C2B15321872D25600038DA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7C2B15351872D25600038DA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C2B15381872D25600038DA4 /* SimbirSoftTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimbirSoftTest-Prefix.pch"; sourceTree = "<group>"; };
+		7C2B15391872D25600038DA4 /* SimbirSoftTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SimbirSoftTest.1; sourceTree = "<group>"; };
+		7C2B15401872D2D100038DA4 /* WordCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordCounter.h; sourceTree = "<group>"; };
+		7C2B15411872D2D100038DA4 /* WordCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordCounter.m; sourceTree = "<group>"; };
+		7C2B154318735B9800038DA4 /* DictionaryReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryReader.h; sourceTree = "<group>"; };
+		7C2B154418735B9800038DA4 /* DictionaryReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryReader.m; sourceTree = "<group>"; };
+		7C4134C1188088B300EFBAC6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7C4827981887143000637B5A /* SimbirSoftTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimbirSoftTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C48279C1887143000637B5A /* SimbirSoftTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimbirSoftTestTests-Info.plist"; sourceTree = "<group>"; };
+		7C48279E1887143000637B5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C4827A01887143000637B5A /* SimbirSoftTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimbirSoftTestTests.m; sourceTree = "<group>"; };
+		7C4827A21887143000637B5A /* SimbirSoftTestTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimbirSoftTestTests-Prefix.pch"; sourceTree = "<group>"; };
+		7CABEAE5187B35980066F3D9 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		7CE8F1921875A9480090F201 /* DictionaryFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryFactory.h; sourceTree = "<group>"; };
+		7CE8F1931875A9480090F201 /* DictionaryFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryFactory.m; sourceTree = "<group>"; };
+		7CE8F1981875EC5B0090F201 /* IFileReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IFileReader.h; sourceTree = "<group>"; };
+		7CE8F1991875ECD00090F201 /* FileReaderFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileReaderFactory.h; sourceTree = "<group>"; };
+		7CE8F19A1875ECD00090F201 /* FileReaderFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileReaderFactory.m; sourceTree = "<group>"; };
+		7CEEE5F8187BDEFB00961314 /* IWordCounter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IWordCounter.h; sourceTree = "<group>"; };
+		7CEEE5F9187BDF8800961314 /* WordCounterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordCounterFactory.h; sourceTree = "<group>"; };
+		7CEEE5FA187BDF8800961314 /* WordCounterFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordCounterFactory.m; sourceTree = "<group>"; };
+		7CF3157018773D66004FD937 /* StaticticTextOutputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticticTextOutputer.h; sourceTree = "<group>"; };
+		7CF3157118773D66004FD937 /* StaticticTextOutputer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticticTextOutputer.m; sourceTree = "<group>"; };
+		7CF4D94E1879E27500D1C083 /* en */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7CF4D9511879E65300D1C083 /* ru */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7CF4D9561879EB1A00D1C083 /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C2B152C1872D25600038DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2B15331872D25600038DA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C4827951887143000637B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C4827991887143000637B5A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C2B15261872D25600038DA4 = {
+			isa = PBXGroup;
+			children = (
+				7C2B15341872D25600038DA4 /* SimbirSoftTest */,
+				7C48279A1887143000637B5A /* SimbirSoftTestTests */,
+				7C2B15311872D25600038DA4 /* Frameworks */,
+				7C2B15301872D25600038DA4 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
+		7C2B15301872D25600038DA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C2B152F1872D25600038DA4 /* SimbirSoftTest */,
+				7C4827981887143000637B5A /* SimbirSoftTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C2B15311872D25600038DA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C2B15321872D25600038DA4 /* Foundation.framework */,
+				7C4134C1188088B300EFBAC6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C2B15341872D25600038DA4 /* SimbirSoftTest */ = {
+			isa = PBXGroup;
+			children = (
+				7C5C39561885770100CDE683 /* OutputFileWriter */,
+				7C5C3955188576E800CDE683 /* WordCounter */,
+				7C5C3954188576AE00CDE683 /* Factory */,
+				7C5C39531885769000CDE683 /* Interfaces */,
+				7C5C39521885764F00CDE683 /* InputFileRead */,
+				7C5C39511885762C00CDE683 /* Resource */,
+				7C5C39501885760E00CDE683 /* App */,
+				7C2B15391872D25600038DA4 /* SimbirSoftTest.1 */,
+				7C2B15371872D25600038DA4 /* Supporting Files */,
+			);
+			path = SimbirSoftTest;
+			sourceTree = "<group>";
+		};
+		7C2B15371872D25600038DA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C2B15381872D25600038DA4 /* SimbirSoftTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C48279A1887143000637B5A /* SimbirSoftTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C4827A01887143000637B5A /* SimbirSoftTestTests.m */,
+				7C48279B1887143000637B5A /* Supporting Files */,
+			);
+			path = SimbirSoftTestTests;
+			sourceTree = "<group>";
+		};
+		7C48279B1887143000637B5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C48279C1887143000637B5A /* SimbirSoftTestTests-Info.plist */,
+				7C48279D1887143000637B5A /* InfoPlist.strings */,
+				7C4827A21887143000637B5A /* SimbirSoftTestTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C5C39501885760E00CDE683 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7CABEAE5187B35980066F3D9 /* Constants.h */,
+				7C2B15351872D25600038DA4 /* main.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		7C5C39511885762C00CDE683 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7CF4D94F1879E27500D1C083 /* Localizable.strings */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		7C5C39521885764F00CDE683 /* InputFileRead */ = {
+			isa = PBXGroup;
+			children = (
+				7C0D8BD71874AEEB007FD4D0 /* FileReader.m */,
+				7C0D8BD61874AEEB007FD4D0 /* FileReader.h */,
+				7C2B154318735B9800038DA4 /* DictionaryReader.h */,
+				7C2B154418735B9800038DA4 /* DictionaryReader.m */,
+				7C0D8BD91874B19C007FD4D0 /* File.h */,
+				7C0D8BDA1874B19C007FD4D0 /* File.m */,
+			);
+			name = InputFileRead;
+			sourceTree = "<group>";
+		};
+		7C5C39531885769000CDE683 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				7CEEE5F8187BDEFB00961314 /* IWordCounter.h */,
+				7C0D8BDC1874B500007FD4D0 /* IDictionary.h */,
+				7CE8F1981875EC5B0090F201 /* IFileReader.h */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+		7C5C3954188576AE00CDE683 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				7CE8F1991875ECD00090F201 /* FileReaderFactory.h */,
+				7CE8F19A1875ECD00090F201 /* FileReaderFactory.m */,
+				7CEEE5F9187BDF8800961314 /* WordCounterFactory.h */,
+				7CEEE5FA187BDF8800961314 /* WordCounterFactory.m */,
+				7CE8F1921875A9480090F201 /* DictionaryFactory.h */,
+				7CE8F1931875A9480090F201 /* DictionaryFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		7C5C3955188576E800CDE683 /* WordCounter */ = {
+			isa = PBXGroup;
+			children = (
+				7C2B15401872D2D100038DA4 /* WordCounter.h */,
+				7C2B15411872D2D100038DA4 /* WordCounter.m */,
+			);
+			name = WordCounter;
+			sourceTree = "<group>";
+		};
+		7C5C39561885770100CDE683 /* OutputFileWriter */ = {
+			isa = PBXGroup;
+			children = (
+				7CF3157018773D66004FD937 /* StaticticTextOutputer.h */,
+				7CF3157118773D66004FD937 /* StaticticTextOutputer.m */,
+			);
+			name = OutputFileWriter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C2B152E1872D25600038DA4 /* SimbirSoftTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C2B153D1872D25600038DA4 /* Build configuration list for PBXNativeTarget "SimbirSoftTest" */;
+			buildPhases = (
+				7C2B152B1872D25600038DA4 /* Sources */,
+				7C2B152C1872D25600038DA4 /* Frameworks */,
+				7C2B152D1872D25600038DA4 /* CopyFiles */,
+				7CF4D9521879E7D600D1C083 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimbirSoftTest;
+			productName = SimbirSoftTest;
+			productReference = 7C2B152F1872D25600038DA4 /* SimbirSoftTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		7C4827971887143000637B5A /* SimbirSoftTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C4827A51887143000637B5A /* Build configuration list for PBXNativeTarget "SimbirSoftTestTests" */;
+			buildPhases = (
+				7C4827941887143000637B5A /* Sources */,
+				7C4827951887143000637B5A /* Frameworks */,
+				7C4827961887143000637B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C4827A41887143000637B5A /* PBXTargetDependency */,
+			);
+			name = SimbirSoftTestTests;
+			productName = SimbirSoftTestTests;
+			productReference = 7C4827981887143000637B5A /* SimbirSoftTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C2B15271872D25600038DA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Олег";
+				TargetAttributes = {
+					7C4827971887143000637B5A = {
+						TestTargetID = 7C2B152E1872D25600038DA4;
+					};
+				};
+			};
+			buildConfigurationList = 7C2B152A1872D25600038DA4 /* Build configuration list for PBXProject "SimbirSoftTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ru,
+				"ru-RU",
+			);
+			mainGroup = 7C2B15261872D25600038DA4;
+			productRefGroup = 7C2B15301872D25600038DA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C2B152E1872D25600038DA4 /* SimbirSoftTest */,
+				7C4827971887143000637B5A /* SimbirSoftTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C4827961887143000637B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C48279F1887143000637B5A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C2B152B1872D25600038DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2B15361872D25600038DA4 /* main.m in Sources */,
+				7C2B15421872D2D100038DA4 /* WordCounter.m in Sources */,
+				7C2B154518735B9800038DA4 /* DictionaryReader.m in Sources */,
+				7C0D8BD81874AEEB007FD4D0 /* FileReader.m in Sources */,
+				7C0D8BDB1874B19C007FD4D0 /* File.m in Sources */,
+				7CE8F1941875A9480090F201 /* DictionaryFactory.m in Sources */,
+				7CE8F19B1875ECD10090F201 /* FileReaderFactory.m in Sources */,
+				7CF3157218773D67004FD937 /* StaticticTextOutputer.m in Sources */,
+				7CEEE5FB187BDF8800961314 /* WordCounterFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C4827941887143000637B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C4827A11887143000637B5A /* SimbirSoftTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C4827A41887143000637B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C2B152E1872D25600038DA4 /* SimbirSoftTest */;
+			targetProxy = 7C4827A31887143000637B5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7C48279D1887143000637B5A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C48279E1887143000637B5A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7CF4D94F1879E27500D1C083 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CF4D94E1879E27500D1C083 /* en */,
+				7CF4D9511879E65300D1C083 /* ru */,
+				7CF4D9561879EB1A00D1C083 /* ru-RU */,
+			);
+			name = Localizable.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C2B153B1872D25600038DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7C2B153C1872D25600038DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7C2B153E1872D25600038DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimbirSoftTest/SimbirSoftTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7C2B153F1872D25600038DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimbirSoftTest/SimbirSoftTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7C4827A61887143000637B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimbirSoftTest";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimbirSoftTestTests/SimbirSoftTestTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "SimbirSoftTestTests/SimbirSoftTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = build/Debug/SimbirSoftTest;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7C4827A71887143000637B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimbirSoftTest";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimbirSoftTestTests/SimbirSoftTestTests-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "SimbirSoftTestTests/SimbirSoftTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = build/Release/SimbirSoftTest;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C2B152A1872D25600038DA4 /* Build configuration list for PBXProject "SimbirSoftTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C2B153B1872D25600038DA4 /* Debug */,
+				7C2B153C1872D25600038DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C2B153D1872D25600038DA4 /* Build configuration list for PBXNativeTarget "SimbirSoftTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C2B153E1872D25600038DA4 /* Debug */,
+				7C2B153F1872D25600038DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C4827A51887143000637B5A /* Build configuration list for PBXNativeTarget "SimbirSoftTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C4827A61887143000637B5A /* Debug */,
+				7C4827A71887143000637B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C2B15271872D25600038DA4 /* Project object */;
+}
